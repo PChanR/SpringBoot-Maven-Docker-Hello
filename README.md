@@ -9,11 +9,11 @@ Running the app with Docker
   
 * Then, you just need to execute:
  
- docker build -t <image-name> .
+ docker build -t image-name .
  
 * We're almost there to have our application up and running on Docker. We just need to create a container using the new image:
  
- docker run -p 8000:8080 <new-image-name>
+ docker run -p 8000:8080 new-image-name
  
  By using the -p  we're telling docker to expose the container's port 8080 on the host's port 8000. We can access from our machine to localhost:8000
  
