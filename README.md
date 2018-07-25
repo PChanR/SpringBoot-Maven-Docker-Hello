@@ -1,5 +1,5 @@
-# SpringBoot-Maven-Docker-Hello
-Dockerize a Spring Boot application
+# SpringBoot-Maven-Docker-Hello-AWS
+Dockerize a Spring Boot application and deploy it on aws
 
 
 Running the app with Docker
